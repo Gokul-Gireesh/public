@@ -1,0 +1,16 @@
+{
+  "name": "Speed by Goku",
+  "short_name": "Speed",
+  "start_url": "/public/speed",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "icons": [
+    {
+      "src": "speed.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    { "src": "speed.png", "sizes": "192x192 512x512", "type": "image/png" }
+  ]
+}
