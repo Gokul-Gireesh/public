@@ -1,0 +1,43 @@
+{
+  "name": "Speed by Goku",
+  "short_name": "Speed",
+  "version": "0.0.0",
+  "start_url": "/public/speed",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "shortcuts": [
+    {
+      "name": "Math",
+      "short_name": "Math",
+      "description": "Try Math",
+      "url": "/public/speed/math",
+      "icons": [{ "src": "speed.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "English",
+      "short_name": "English",
+      "description": "Try English",
+      "url": "/public/speed/english",
+      "icons": [{ "src": "speed.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+speed",
+      "url": "/public/speed/%s"
+    },
+    {
+      "protocol": "web+app",
+      "url": "/public/speed/%s"
+    }
+  ],
+  "icons": [
+    {
+      "src": "speed.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    { "src": "speed.png", "sizes": "192x192 512x512", "type": "image/png" }
+  ]
+}
